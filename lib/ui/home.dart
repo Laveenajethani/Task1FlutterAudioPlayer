@@ -17,16 +17,6 @@ myhome() {
     }
   }
 
-  //audioCache.play('audio/audio.wav');
-  /*play() async {
-      int result = await audioPlayer.play(
-          'https://raw.githubusercontent.com/Laveenajethani/flutter_task1/master/assets/audio/audio.wav');
-      if (result == 1) {
-        print('played');
-      }
-    }
-  }
-*/
   pause() async {
     int result = await audioPlayer.pause();
     if (result == 1) {
@@ -118,7 +108,7 @@ myhome() {
       image: DecorationImage(
         fit: BoxFit.fill,
         image: NetworkImage(
-          'https://raw.githubusercontent.com/Laveenajethani/flutter_task1/master/images/back.jpg',
+          'https://raw.githubusercontent.com/Laveenajethani/Task1FlutterAudioPlayer/master/images/back.jpg',
         ),
       ),
     ),
